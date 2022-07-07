@@ -1,3 +1,3 @@
-import App from './App/App'; // import an APP
+import App from './theory/basic-ts/App/App';
 
 new App(); // then create of an instance
