@@ -1,5 +1,12 @@
 # mentoring
 
+## Testing 
+
+### Usage
+
+- [x] - npm test
+- [x] - go to folder src/ts/theory/testing
+
 ## LocalStorage
 
 ### Usage
