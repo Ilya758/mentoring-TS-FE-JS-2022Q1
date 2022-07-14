@@ -2,10 +2,12 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "private": true,
   "scripts": {
     "d": "webpack-dev-server --node-env development --open",
     "b": "webpack --node-env production",
+    "test": "jest src/ts/theory/testing/main.test.ts",
     "s-f": "stylelint **/*.scss --fix",
     "es-f": "eslint **/*.ts --fix",
     "pr-f": "prettier --write src/**"
@@ -20,11 +22,13 @@
     "@babel/eslint-parser": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^28.1.5",
     "@types/three": "^0.137.0",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "@webpack-cli/generators": "^2.4.1",
     "autoprefixer": "^10.3.7",
+    "babel-jest": "^28.1.3",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.5",
     "browser-sync-webpack-plugin": "^2.3.0",
@@ -70,6 +74,7 @@
     "stylelint-scss": "^3.21.0",
     "stylelint-webpack-plugin": "^3.0.1",
     "terser-webpack-plugin": "^5.2.4",
+    "ts-jest": "^28.0.6",
     "ts-loader": "^9.2.6",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2",
@@ -80,6 +85,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "jest": "^28.1.3",
     "normalize.css": "^8.0.1"
   }
 }
