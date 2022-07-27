@@ -1,5 +1,12 @@
 # mentoring
 
+## fp 
+
+### Usage
+
+- [x] - go to folder src/ts/theory/fp
+- [ ] - no code can running that folder
+
 ## Testing 
 
 ### Usage
